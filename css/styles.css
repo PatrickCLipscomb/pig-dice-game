@@ -1,0 +1,27 @@
+/*pig dice bdd
+player hits roll button and receives a random roll from 1-6.
+If player hits roll of 1 then switches to other players turn.
+players rolls accumulate.
+if player reaches score of 100 then player wins.
+when a player wins the game is reset.
+resetting the PlayerTurn variable when it is new players turn.
+hold button that switches over to other player.
+if 1 is rolled then, current turn value is lost.
+
+*/
+
+.center {
+  text-align: center;
+}
+
+#playerOneNote {
+  display: inline-block;
+}
+
+#playerTwoNote {
+  display: inline-block;
+}
+
+.tpadding {
+  padding-top: 50px;
+}
